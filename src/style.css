@@ -12,6 +12,7 @@ body {
 
 .primary {
   background-color: var(--secondary-color);
+  padding: 20px;
 }
 
 .intro {
