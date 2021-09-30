@@ -54,5 +54,28 @@ body {
 }
 
 .project-description {
-  padding: 20px;
+  padding: 30px;
+  line-height: 1.5;
+}
+
+@media (max-width: 425px) {
+  .intro {
+    padding: 100px 0 0 0;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+  .intro h2 {
+    font-size: 16px;
+  }
+  .intro .btn-branding {
+    line-height: 1;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 100px 0 0 0;
+  }
 }
