@@ -46,3 +46,13 @@ body {
   line-height: 2;
   border-radius: 4px;
 }
+
+.contact-links {
+  color: var(--primary-color);
+  font-size: 28px;
+  padding: 20px;
+}
+
+.project-description {
+  padding: 20px;
+}
