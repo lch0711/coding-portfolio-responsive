@@ -71,10 +71,16 @@ nav a :hover {
   border-radius: 4px;
 }
 
-.contact-links {
+footer a {
   color: var(--primary-color);
+  text-decoration: none;
   font-size: 28px;
   padding: 20px;
+}
+
+footer a :hover {
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .project-description {
