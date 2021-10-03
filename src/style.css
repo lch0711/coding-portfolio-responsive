@@ -82,8 +82,12 @@ nav a :hover {
   line-height: 1.5;
 }
 
-.icons {
-  padding: 0px 20px;
+.navbar-primary {
+  background-color: var(--secondary-color);
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 300;
 }
 
 @media (max-width: 425px) {
